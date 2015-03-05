@@ -1,3 +1,4 @@
+require "ruboty/handlers/test"
 require "ruboty/test/version"
 
 module Ruboty

@@ -1,6 +1,6 @@
 module Ruboty
   module Handlers
-    class Test < Hander
+    class Test < Base
       on /こんにちは/, name: :hello, description: 'あいさつします'
 
       def hello(message)
